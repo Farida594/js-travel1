@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incredible India Travel Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+</head>
+<body>
+
+<header class="head">
+  🏝️ Incredible India Travel Guide ✈️
+</header>
+
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#footer">Footer</a></li>
+<li class="login"><a href="login.html">Login</a></li>
+  
+  </ul>
+</nav>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+  <div class="hero-content">
+    <h1 class="welcome">Welcome to Incredible Travel ✈️🌍✨</h1>
+    <p>Explore amazing destinations, culture, and travel experiences.
+  India is a land of diverse landscapes—from snow-covered mountains of the 
+  Himalayas to the golden deserts of Rajasthan, lush green forests, serene 
+  beaches, and vibrant cities. Each region offers unique culture, food, 
+  festivals, and unforgettable travel experiences. Whether you love adventure, 
+  spiritual journeys, wildlife safaris, historical monuments, or relaxing 
+  nature escapes, India has something to offer for every type of traveler.
+</p>
+
+    <button>Explore Now</button>
+  </div>
+  
+
+ <section class="carousel-section">
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <img src="home pic.png" alt="Home Travel Image">
+      <img src="slider2.png" alt="Travel 2">
+      <img src="slider3.png" alt="Travel 3">
+       <img src="slider4.png" alt="Travel 4">
+
+      
+ 
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+
+  <!-- Destinations -->
+
+  <section class="destinations" id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="search-container">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search destinations..."
+      onkeyup="filterCards()"
+    />
+  </div>
+    <div class="cards">
+     <a href="detailindex.html" class="card-link">
+  <div class="card">
+    <img src="Tajmahal.png" alt="Taj Mahal">
+    <h3>Agra</h3>
+    <p>Home of the beautiful Taj Mahal.</p>
+  </div>
+</a>
+         <a href="detailindex2.html" class="card-link">
+      <div class="card">
+        <img src="Goa.png" alt="Goa">
+        <h3>Goa</h3>
+        <p>Beaches, nightlife, and a perfect vacation spot.</p>
+      </div>
+      </a>
+         <a href="detailindex3.html" class="card-link">
+      <div class="card">
+        <img src="kashmir.png" alt="Kashmir">
+        <h3>Kashmir</h3>
+        <p>Heaven on Earth with lakes and snowy mountains.</p>
+      </div>
+      </a>
+
+       <a href="detailindex4.html" class="card-link">
+      <div class="card">
+      <img src="Charminar.png" alt="Charminar">
+      <h3>Hyderabad - Charminar</h3>
+      <p>Iconicmosque and monument in Hyderabad.</p>
+    </div>
+    </a>
+       <a href="detailindex5.html" class="card-link">
+    <div class="card">
+      <img src="India gate.png" alt="India Gate">
+      <h3>New Delhi - India Gate</h3>
+      <p>War memorial and one of Delhi’s most famous landmarks.</p>
+    </div>
+    </a>
+       <a href="detailindex6.html" class="card-link">
+    <div class="card">
+      <img src="Redfort.png" alt="Red Fort">
+      <h3>Delhi - Red Fort</h3>
+      <p>Historic fort and UNESCO World Heritage Site in Delhi.</p>
+    </div>
+    </a>
+        <a href="detailindex7.html" class="card-link">
+    <div class="card">
+      <img src="golden temple.png" alt="Golden Temple">
+      <h3>Amritsar - Golden Temple</h3>
+      <p>Spiritual and cultural center for Sikhs in Punjab.</p>
+    </div>
+    </a>
+      <a href="detailindex8.html" class="card-link">
+    <div class="card">
+      <img src="Haridwar.png" alt="Haridwar">
+      <h3>Haridwar</h3>
+      <p>Spiritual city on the banks of River Ganga.</p>
+    </div>
+    </a>
+       <a href="detailindex9.html" class="card-link">
+    <div class="card">
+      <img src="Kerela.png" alt="Kerala">
+      <h3>Kerala</h3>
+      <p>Backwaters, beaches, and lush green landscapes.</p>
+    </div>
+    </a> 
+      <a href="detailindex10.html" class="card-link">
+    <div class="card">
+      <img src="Mysore.png" alt="Mysore">
+      <h3>Mysore</h3>
+      <p>Famous for Mysore Palace and rich cultural heritage.</p>
+    </div>
+    </a> 
+       <a href="detailindex11.html" class="card-link">
+    <div class="card">
+      <img src="ladhak.png" alt="Ladakh">
+      <h3>Ladakh</h3>
+      <p>Breathtaking mountains, lakes, and adventure paradise.</p>
+    </div>
+    </a>
+        <a href="detailindex12.html" class="card-link">
+     <div class="card">
+      <img src="manali.png" alt="Manali">
+      <h3>Manali</h3>
+      <p>Hill station with snow-capped mountains and adventure sports.</p>
+    </div>
+    </a>
+       <a href="detailindex13.html" class="card-link">
+    <div class="card">
+      <img src="madhurai.png" alt="Madurai">
+      <h3>Madurai</h3>
+      <p>Historic city famous for Meenakshi Temple and culture.</p>
+    </div>
+    </a>
+       <a href="detailindex14.html" class="card-link">
+    <div class="card">
+      <img src="Hampi.png" alt="Hampi">
+      <h3>Hampi</h3>
+      <p>UNESCO World Heritage site with ancient ruins and temples.</p>
+    </div>
+    </a>
+       <a href="detailindex15.html" class="card-link">
+    <div class="card">
+      <img src="Sikkim.png" alt="Sikkim">
+      <h3>Sikkim</h3>
+      <p>Beautiful landscapes, monasteries, and adventure tourism.</p>
+    </div>
+    </a>
+       <a href="detailindex16.html" class="card-link">
+    <div class="card">
+      <img src="Shimla.png" alt="Shimla">
+      <h3>Shimla</h3>
+      <p>Popular hill station with scenic views and colonial architecture.</p>
+    </div>
+    </a>
+        <a href="detailindex17.html" class="card-link">
+    <div class="card">
+      <img src="jaipur.png" alt="Jaipur">
+      <h3>Jaipur</h3>
+      <p>The Pink City, famous for palaces, forts, and culture.</p>
+    </div>
+    </a> 
+      <a href="detailindex18.html" class="card-link">
+    <div class="card">
+      <img src="Udaipur.png" alt="Udaipur">
+      <h3>Udaipur</h3>
+      <p>The City of Lakes, known for palaces and scenic beauty.</p>
+    </div>
+    </a>
+       <a href="detailindex19.html" class="card-link">
+    <div class="card">
+      <img src="Bengolore.png" alt="Bengaluru">
+      <h3>Bengaluru</h3>
+      <p>India’s tech hub with vibrant culture.</p>
+    </div>
+    </a>
+     
+        <a href="detailindex20.html" class="card-link">
+    <div class="card">
+      <img src="Mumbai.png" alt="Mumbai">
+      <h3>Mumbai</h3>
+      <p>The city of dreams & Bollywood.</p>
+    </div>
+    </a>
+        <a href="detailindex21.html" class="card-link">
+    <div class="card">
+      <img src="Kolkatta.png" alt="Kolkata">
+      <h3>Kolkata</h3>
+      <p>Cultural capital of India.</p>
+    </div>
+    </a>
+        <a href="detailindex22.html" class="card-link">
+    <div class="card">
+      <img src="Pune.png" alt="Pune">
+      <h3>Pune</h3>
+      <p>Clean, cultural, and youthful city.</p>
+    </div>
+    </a>
+      
+     <a href="detailindex23.html" class="card-link">
+    <div class="card">
+      <img src="Tirupati.png" alt="Tirupati">
+      <h3>Tirupati</h3>
+      <p>Famous for the Tirumala Balaji Temple.</p>
+    </div>
+    </a>
+     
+    <a href="detailindex24.html" class="card-link">
+    <div class="card">
+      <img src="kodaikanal.png" alt="Kodaikanal">
+      <h3>Kodaikanal</h3>
+      <p>Misty hills and peaceful lakes.</p>
+    </div>
+    </a>
+      
+    <a href="detailindex25.html" class="card-link">
+    <div class="card">
+      <img src="lakshdweep.png" alt="Lakshadweep">
+      <h3>Lakshadweep</h3>
+      <p>Crystal clear water & stunning beaches.</p>
+    </div>
+    </a>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    
+<div class="about-container">
+<div class="about-content">
+<h2>About Incredible India</h2>
+<p class="para1">
+Incredible India Travel Guide helps you explore the beauty, culture,
+and diversity of India. From snow-capped mountains to sunny beaches,
+ancient temples to modern cities – we guide you every step of the way.
+</p>
+<p class="para2">
+Our mission is to make travel simple, affordable, and unforgettable by
+providing curated destinations, travel tips, and inspiration for every
+traveler.
+</p>
+<ul class="about-points">
+<li>✔ Top destinations across India</li>
+<li>✔ Easy travel planning</li>
+<li>✔ Trusted travel guidance</li>
+</ul>
+</div>
+
+
+<div class="about-image">
+<img src="contactimg.png" alt="Travel India">
+</div>
+</div>
+</section>
+
+<section class="reviews">
+  <h2>What our customers say</h2>
+
+  <div class="review-container">
+
+    <div class="review-card">
+      <img src="pic1.png" class="review-bg">
+      <img src="Avatar3.png" class="avatar">
+      <div class="review-text">
+        Love the personalized itineraries, keeping me organized throughout trip.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="pic2.png" class="review-bg">
+      <img src="Avatar2.png" class="avatar">
+      <div class="review-text">
+        The travel updates feature kept me informed, especially during uncertain times.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="pic3.png" class="review-bg">
+      <img src="Avatar6.png" class="avatar">
+      <div class="review-text">
+        Great discounts and exclusive deals — saved a lot on my bookings.
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="pic4.png" class="review-bg">
+      <img src="Avatar4.png" class="avatar">
+      <div class="review-text">
+        User-friendly interface and seamless navigation. My go-to travel app!
+      </div>
+    </div>
+    <div class="review-card">
+  <img src="pic5.png" class="review-bg">
+  <img src="Avatar3.png" class="avatar">
+  <div class="review-text">
+    Booking hotels and transport was super easy and hassle-free.
+  </div>
+</div>
+
+<div class="review-card">
+  <img src="pic6.png" class="review-bg">
+  <img src="Avatar5.png" class="avatar">
+  <div class="review-text">
+    Loved the detailed destination guides — helped me plan perfectly.
+  </div>
+</div>
+
+
+</div>
+
+
+  </div>
+</section>
+
+  <!-- Contact -->
+   <section class="contact" id="contact">
+  <div class="contact-container"> 
+    <div class="contact-card">
+        <h2>Contact Us</h2>
+        <p>We’d love to help you plan your journey ✈️</p>
+
+     <form id="contactForm">
+  <input id="name" placeholder="Your Name" required>
+  <input id="email" placeholder="Your Email" required>
+  <textarea id="message" placeholder="Your Message"></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+     <p id="status"></p>
+
+       
+        <div class="contact-info">
+            <p>📍 India</p>
+            <p>📧 travel@wanderindia.com</p>
+            <p>📞 +91 98765 43210</p>
+        </div>
+    </div>
+    </section>
+</div>
+
+<section class="footer" id="footer">
+<footer class="footer">
+  <div class="footer-content" >
+    
+    <p class="footer-title">Footer</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+
+    <p class="copyright">
+      © 2026 Wander India. All Rights Reserved.
+    </p>
+
+    <div class="cmp-icon__container" onclick="scrollToTop()">
+ 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="cmp-icon__image">
+    <path
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-width="2"
+      d="M50 2v95M25 27l25-25 25 25" />
+  </svg>
+</div>
+</section>
+</footer>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</body>
+</main>
+
+</body>
+</html>
